@@ -659,7 +659,7 @@ function TokenomicsBottom(){
                                             token designed to become more scarce over time. All holders of Phoenix Token will earn more $WKC
                                             (WikiCat Coin) and is automatically sent to your wallet by simply holding Phoenix Token coins in your
                                             wallet. Watch the amount of WikiCat Coin grow in your wallet as Phoenix Token coin holders automatically
-                                            receive a 1% fee from every transaction that happens on the Phoenix Token network. The
+                                            receive a 3% fee from every transaction that happens on the Phoenix Token network. The
                                             community receives more $WKC coins from the fees generated on each transaction.</p>
                                     </div>
                                 </div>
@@ -855,8 +855,8 @@ function RoadMap (){
     }, []);
 
     return (
-        <div ref={buttonRef}>
-            <div className="py-5 container d-block d-md-none mt-5" id='roadmap' >
+        <div ref={buttonRef} id='roadmap'>
+            <div className="py-5 container d-block d-md-none mt-5"  >
                 
                 <p className="" style={{
                     textAlign: "center",
@@ -1005,7 +1005,7 @@ function RoadMap (){
                     </div>
             </div>
             
-            <div className="py-5 container d-none d-md-block mt-5" id='roadmap'>
+            <div className="py-5 container d-none d-md-block mt-5" >
                 <p className="" style={{
                     textAlign: "center",
                     // textShadow: "0px 18px 7px rgba(0, 0, 0, 0.70)",
@@ -1357,7 +1357,7 @@ function Buy(){
                                 <p style={{marginBottom: '0px'}}><b >PURCHASE BNB<br /></b></p>
                                 <p>Purchase BNB Smart Chain (Bep 20) via any CEX (Binance, kucoin etc...) and deposit into your wallet address.</p>
                                 <p style={{marginBottom: '0px'}}><b >SWAP BNB TO PHT<br /></b></p>
-                                <p>Copy the Contract Address and head over to PancakeSwap or Poocoin DEX, Paste the Contract Address to import $PHX then proceed to swap BNB to DTG.</p>
+                                <p>Copy the Contract Address and head over to PancakeSwap or Poocoin DEX, Paste the Contract Address to import $PHT then proceed to swap BNB to PHT.</p>
 
                                 <div className="text-dark" ><div className="px-3 rounded-3" style={{ background: '#FFC700', fontWeight: 'bold', width: 'fit-content' }}><p className='p-1'> Buy on PancakeSwap </p></div></div>
                             </div>

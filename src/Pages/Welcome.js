@@ -234,8 +234,8 @@ function TypedText() {
                     fontSize: "8vw",
                     fontStyle: "normal",
                     fontWeight: "700",
-                    fontFamily: "Phoenix",
-                    // fontFamily: 'Poppins',
+                    // fontFamily: "Phoenix",
+                    fontFamily: 'Poppins',
                     //lineHeight: "8vw", /* 112px */
                     background: "linear-gradient(180deg, #FFC700 0%, #FF7A00 100%)",
                     backgroundClip: "text",
@@ -250,8 +250,8 @@ function TypedText() {
                     fontSize: "10vw",
                     fontStyle: "normal",
                     fontWeight: "700",
-                    // fontFamily: 'Poppins',
-                    fontFamily: "Phoenix",
+                    fontFamily: 'Poppins',
+                    // fontFamily: "Phoenix",
                     //lineHeight: "8vw", /* 112px */
                     background: "linear-gradient(180deg, #FFC700 0%, #FF7A00 100%)",
                     backgroundClip: "text",
@@ -322,7 +322,7 @@ function About(){
                     <p className="" style={{
                             textAlign: "left",
                             // textShadow: "0px 18px 7px rgba(0, 0, 0, 0.70)",
-                            // fontFamily: "",
+                            // fontFamily: "Phoenix",
                             fontSize: "32px",
                             fontStyle: "normal",
                             fontWeight: "700",
@@ -370,7 +370,7 @@ function About(){
                         <p className="" style={{
                             textAlign: "center",
                             // textShadow: "0px 18px 7px rgba(0, 0, 0, 0.70)",
-                            fontFamily: "Zilla Slab",
+                            // fontFamily: "Phoenix",
                             fontSize: "32px",
                             fontStyle: "normal",
                             fontWeight: "700",
